@@ -8,5 +8,4 @@ public class Contrato {
     boolean cargador;
     double precioFinal;
 }
-juan sanchez
-    ewefwe
+
