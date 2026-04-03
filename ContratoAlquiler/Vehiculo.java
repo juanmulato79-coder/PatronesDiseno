@@ -3,6 +3,14 @@ class Vehiculo {
     private String tipo;
 
     public Vehiculo(String placa, String tipo) {
+
+        if (!tipo.equalsIgnoreCase("Auto") &&
+            !tipo.equalsIgnoreCase("Van") &&
+            !tipo.equalsIgnoreCase("Camion")) {
+
+            throw new IllegalArgumentException("Tipo de vehículo inválido");
+        }
+
         this.placa = placa;
         this.tipo = tipo;
     }
