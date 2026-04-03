@@ -1,3 +1,4 @@
+
 public class Inventario {
  
     private Vehiculos_[] vehiculos;
