@@ -11,7 +11,7 @@ public class Main {
         System.out.print("Ingrese placa del vehículo: ");
         String placa = sc.nextLine();
 
-        // 🔥 VALIDACIÓN DEL TIPO
+        // VALIDACIÓN DEL TIPO
         String tipo;
         while (true) {
             System.out.print("Ingrese tipo de vehículo (Auto/Van/Camion): ");
@@ -22,11 +22,11 @@ public class Main {
                 tipo.equalsIgnoreCase("Camion")) {
                 break;
             } else {
-                System.out.println("❌ Tipo inválido, intente de nuevo.");
+                System.out.println(" Tipo inválido, intente de nuevo.");
             }
         }
 
-        // 🔥 VALIDACIÓN DE DÍAS
+        //  VALIDACIÓN DE DÍAS
         int dias;
         while (true) {
             System.out.print("Ingrese días de alquiler: ");
@@ -36,13 +36,13 @@ public class Main {
             if (dias > 0) {
                 break;
             } else {
-                System.out.println("❌ Los días deben ser mayores a 0.");
+                System.out.println("Los días deben ser mayores a 0.");
             }
         }
 
         Vehiculo vehiculo = new Vehiculo(placa, tipo);
 
-        // 🔥 ACCESORIOS
+        //  ACCESORIOS
         System.out.print("¿Desea GPS? (s/n): ");
         String gps = sc.nextLine();
 
@@ -52,7 +52,7 @@ public class Main {
         System.out.print("¿Desea cargador? (s/n): ");
         String cargador = sc.nextLine();
 
-        // 🔥 BUILDER
+        //  BUILDER
         ContratoBuilder builder = new ContratoBuilder()
                 .setCliente(cliente)
                 .setVehiculo(vehiculo)
