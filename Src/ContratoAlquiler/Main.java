@@ -76,6 +76,6 @@ public class Main {
 
         contrato.mostrar();
 
-        
+        sc.close();
     }
 }
