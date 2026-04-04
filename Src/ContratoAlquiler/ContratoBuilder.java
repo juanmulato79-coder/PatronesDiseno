@@ -1,3 +1,4 @@
+package Src.ContratoAlquiler;
 class ContratoBuilder {
     private Contrato contrato;
 

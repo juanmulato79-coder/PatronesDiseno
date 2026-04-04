@@ -1,4 +1,4 @@
-
+package Src.InventarioVehiculos;
 public class Inventario {
  
     private Vehiculos_[] vehiculos;

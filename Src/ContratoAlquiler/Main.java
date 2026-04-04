@@ -1,3 +1,4 @@
+package Src.ContratoAlquiler;
 import java.util.Scanner;
 
 public class Main {
@@ -75,6 +76,6 @@ public class Main {
 
         contrato.mostrar();
 
-        sc.close();
+        
     }
 }

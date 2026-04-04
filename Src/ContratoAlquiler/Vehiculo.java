@@ -1,3 +1,4 @@
+package Src.ContratoAlquiler;
 class Vehiculo {
     private String placa;
     private String tipo;

@@ -1,3 +1,4 @@
+package Src.ContratoAlquiler;
 class Contrato {
     private String cliente;
     private Vehiculo vehiculo;

@@ -1,4 +1,4 @@
-
+package Src.InventarioVehiculos;
 public class Camion extends Vehiculos_ {
  
     public Camion(String placa, double autonomia) {

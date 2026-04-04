@@ -1,4 +1,4 @@
-
+package Src.InventarioVehiculos;
 public abstract class Vehiculos_ {
     protected String placa;
     protected double autonomia;

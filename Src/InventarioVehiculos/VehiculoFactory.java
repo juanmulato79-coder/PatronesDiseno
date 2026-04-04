@@ -1,4 +1,4 @@
-
+package Src.InventarioVehiculos;
 public class VehiculoFactory {
  
     public static Vehiculos_ crearVehiculo(String tipo, String placa, double autonomia) {
