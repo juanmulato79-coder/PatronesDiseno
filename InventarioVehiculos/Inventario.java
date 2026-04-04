@@ -27,7 +27,6 @@ public class Inventario {
         return null;
     }
  
-    // 📌 ORDENAR (Burbuja)
     public void ordenarPorAutonomia() {
         for (int i = 0; i < contador - 1; i++) {
             for (int j = 0; j < contador - i - 1; j++) {
